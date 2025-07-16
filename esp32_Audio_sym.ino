@@ -8,11 +8,11 @@
 #include <AudioOutputI2S.h> // For audio output (I2S used for internal audio playback)
 
 // Wi-Fi credentials
-const char* ssid = "DEXTRIS";
-const char* password = "Dextris@789";
+const char* ssid = "";
+const char* password = "";
 
 // MQTT broker details
-const char* mqtt_server = "192.168.1.25";
+const char* mqtt_server = "";
 const int mqtt_port = 1883;
 const char* mqtt_topic_download = "audio/files/download";
 const char* mqtt_topic_status = "audio/files/status";
